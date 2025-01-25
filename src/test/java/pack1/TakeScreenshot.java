@@ -11,7 +11,7 @@ public class TakeScreenshot {
 
     public static void main(String[] args) {
         // Set up WebDriver
-        System.setProperty("webdriver.chrome.driver", "\\wsl.localhost\\Ubuntu\\usr\\local\\bin\\chromedriver");
+        System.setProperty("webdriver.chrome.driver", "\\usr\\local\\bin\\chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
