@@ -11,7 +11,7 @@ public class TakeScreenshot {
 
     public static void main(String[] args) {
         // Set up WebDriver
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shahab\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shahab\\Downloads\\chromedriver-linux64\\chromedriver-linux64\\chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
