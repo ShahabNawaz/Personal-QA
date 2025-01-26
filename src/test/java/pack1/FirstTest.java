@@ -23,7 +23,7 @@ public class FirstTest{
     }
     @Test(dataProvider = "searchDataSet")
     public void logintest(String country , String monument){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shahab\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "\\usr\\local\\bin\\chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
         WebElement Search=driver.findElement(By.name("q"));
